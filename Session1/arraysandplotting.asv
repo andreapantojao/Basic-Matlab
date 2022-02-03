@@ -1,0 +1,10 @@
+%Import Durham weather data from excel 
+data=xlsread('DurhamWeather.xlsx','Sheet1');
+%Determine the size of the data 
+size(data)
+%Extract years and store in yyyy
+yyyy=data(:,1);
+%Extract months and store in mm
+mm=data(:,2);
+%Extract monthly mean daily minimun temperature and store in tmin 
+tmin=data(:,4);

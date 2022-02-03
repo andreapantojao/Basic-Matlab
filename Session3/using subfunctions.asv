@@ -1,0 +1,1 @@
+data=xlsread('DurhamWeather (2).xlsx','Sheet1');
